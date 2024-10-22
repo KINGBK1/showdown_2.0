@@ -1,10 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+
 import PageContainer from "../Components/PageContainer";
+import Navbar from "../Components/Navbar";
 
 function Home() {
   return (
-    <PageContainer>hh</PageContainer>
+    <>
+    <PageContainer>
+    </PageContainer>
+    </>  
   );
 }
 
