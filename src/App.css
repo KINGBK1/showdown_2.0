@@ -1,5 +1,15 @@
 .main-bg {
-  background: rgb(2, 9, 83);
-  background: linear-gradient(16deg, rgba(2, 9, 83, 1) 0%, rgba(0, 0, 0, 1) 85%, rgba(244, 0, 255, 1) 100%);
-  filter: blur(10px);
+ background-image: linear-gradient(to right , rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/background.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ z-index: -1;
+}
+body{
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }

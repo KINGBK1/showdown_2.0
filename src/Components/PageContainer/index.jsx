@@ -1,15 +1,15 @@
 import React from "react";
 import { BG } from "../../Assets";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
-function PageContainer() {
+function PageContainer({ children }) {
   return (
-    <div className="h-screen w-screen overflow-y-hidden overflow-x-hidden">
-      <Navbar/>
-    <div className=" relative  text-white  ">
-        <img src={BG} className="h-screen w-screen z-[2]" alt="" />
-      <div className=" h-full w-full absolute top-0 left-0 z-[5]  bg-gradient-to-r from-black/50 to-black/90"></div>
-    </div>
+    <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden main-bg">
+      <div className="h-screen w-screen absolute top-0 left-0 z-[5] main-bg"></div>
+      <Navbar />
+      {children}
+      <Footer />
     </div>
   );
 }

@@ -13,19 +13,19 @@ export default function Navbar({ className }) {
   };
 
   return (
-    <nav className=" flex justify-between items-center h-20 bg-black p-3 z-50">
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md shadow-xl py-5 px-4 z-50">
       {/* Left Icon */}
       <div className="flex items-center">
         <MdPerson size={24} className="text-white" />
       </div>
 
       {/* Desktop Menu Items */}
-      <div className="hidden md:flex gap-3">
-        {["About", "Rules", "Schedule", "Sponsors"].map((ele) => (
+      <div className="hidden md:flex gap-4">
+        {["About", "Rules", "Schedule", "Sponsors", "Team" , "Contact"].map((ele) => (
           <a
             href={`${ele}`}
             key={ele}
-            className="text-white mx-8 cursor-pointer hover:underline"
+            className="text-white mx-4 cursor-pointer hover:underline text-xl"
           >
             {ele}
           </a>
