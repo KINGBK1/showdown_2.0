@@ -1,5 +1,44 @@
 import { finance, healthcare } from "../Assets";
 
+export const timeline = [
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+  {
+    title:"Problem Statement release",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
+    date: "19 OCT"
+  },
+
+]
+
 export const faq = [
   {
     question: "What is a hackathon?",
