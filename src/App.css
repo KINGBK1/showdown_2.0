@@ -1,11 +1,12 @@
 .main-bg {
- background-image: linear-gradient(to right , rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/background.jpg");
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- z-index: -1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
-body{
+
+body {
   font-family: 'Play', sans-serif;
   color: white;
 }
@@ -15,4 +16,36 @@ body{
 }
 *::-moz-progress-bar {
   display: none;
+
+.glass-card {
+  backdrop-filter: blur(7px) saturate(200%);
+  -webkit-backdrop-filter: blur(7px) saturate(200%);
+  background-color: rgba(56, 56, 56, 0.66);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
+
+.only-show-on-large-screen {
+  display: block;
+}
+
+.only-show-on-small-screen {
+  display: none;
+}
+
+
+
+/* For screen below 950px */
+@media screen and (max-width: 960px) {
+
+  .only-show-on-large-screen {
+    display: none;
+  }
+
+  .only-show-on-small-screen {
+    display: block;
+  }
+
+
+
+}}

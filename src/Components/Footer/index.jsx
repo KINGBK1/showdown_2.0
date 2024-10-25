@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterImg } from "../../Assets";
+import { FooterImg, robot } from "../../Assets";
 import {
   FaFacebook,
   FaInstagram,
@@ -9,15 +9,29 @@ import {
 
 function Footer() {
   return (
-    <div className=" backdrop-blur-md w-full  h-[30vh] pt-10 flex relative">
-      <div className=" flex w-full h-full">
-        <img src={FooterImg} className="h-full" alt="" />
+    <div className=" backdrop-blur-md w-full  min-h-[35vh] pt-10 flex relative">
+      <div className="w-[30%]">
+        <img src={FooterImg} alt="robot" className=" h-full" />
+      </div>
+      <div className=" flex w-max h-full">
         <div className="flex flex-col  ">
           <p className="text-white text-xl font-bold mb-2">NIT Durgapur</p>
-          <p>Mahatma Gandhi Rd, A-Zone, Durgapur,<br /> West Bengal, 713209</p>
+          <p>
+            Mahatma Gandhi Rd, A-Zone, Durgapur,
+            <br /> West Bengal, 713209
+          </p>
         </div>
       </div>
-      <div className=" flex w-full justify-end  gap-3">
+      <div className=" flex w-full  h-full">
+        <div className="flex flex-col  ">
+          <p className="text-white text-xl font-bold mb-2">Contacts</p>
+          <p>
+            <p>Suman Karmakar</p>
+            <p>+91 9999999999</p>
+          </p>
+        </div>
+      </div>
+      <div className=" flex  justify-end  gap-3">
         <div className=" mx-4 text-xl flex flex-col min-w-52 items-center  gap-4">
           <p className=" font-bold text-2xl">Hackathon 2024</p>
           <p className=" cursor-pointer text-xl">Resorces</p>
@@ -40,7 +54,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="flex w-full justify-center  gap-3 absolute bottom-0 mb-4">
+      <div className="flex w-full justify-center  gap-3 absolute bottom-0 my-4">
         <p className=" text-white text-xl font-bold">
           Made with ❤️ by GNU/Linux Users' Group
         </p>

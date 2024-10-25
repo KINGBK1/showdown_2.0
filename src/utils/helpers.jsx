@@ -1,4 +1,11 @@
-import { finance, healthcare } from "../Assets";
+import {
+  boyGame,
+  connections,
+  finance,
+  healthcare,
+  innovate,
+  build,
+} from "../Assets";
 
 export const timeline = [
   {
@@ -117,5 +124,44 @@ export const themes = [
     subtitle:
       "The aim should be to develop a groundbreaking solution that tackles financial industry challenges, ensuring it is efficient, intuitive, and accessible to everyone.",
     image: finance,
+  },
+];
+
+export const whyUs = [
+  {
+    title: " Unleash Innovation",
+    subtitle:
+      "At Showdown 1.0, we're bringing together the brightest minds in tech, design, and entrepreneurship to collaborate on real-world problems. This is more than just a hackathon — it's a platform for turning bold ideas into impactful solutions.",
+    image: innovate,
+  },
+  {
+    title: "Build Your Network",
+    subtitle:
+      "Connect with like-minded developers, industry professionals, and mentors. Showdown 1.0 gives you access to invaluable networking opportunities that can take your career to the next level.",
+    image: connections,
+  },
+  {
+    title: "Thrilling Challenges, Limited Time",
+    subtitle:
+      "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
+    image: build,
+  },
+  {
+    title: "Real-World Impact",
+    subtitle:
+      "This isn't just for fun — we're looking for solutions that can make a tangible difference. Whether you're tackling climate change or rethinking healthcare, your projects at Showdown 1.0 have the potential to go beyond the hackathon.",
+    image: boyGame,
+  },
+  {
+    title: "Thrilling Challenges, Limited Time",
+    subtitle:
+      "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
+    image: build,
+  },
+  {
+    title: "Thrilling Challenges, Limited Time",
+    subtitle:
+      "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
+    image: build,
   },
 ];

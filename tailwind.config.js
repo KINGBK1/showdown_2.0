@@ -12,6 +12,9 @@ module.exports = {
         primaryPink: "#F32283",
         secondaryPink: "#F30775",
       },
+      screens: {
+        md: "960px",
+      },
     },
   },
   darkMode: "class",
