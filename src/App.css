@@ -13,3 +13,6 @@ body{
 *::-webkit-scrollbar {
   display: none;
 }
+*::-moz-progress-bar {
+  display: none;
+}
