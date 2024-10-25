@@ -13,7 +13,7 @@ export default function Navbar({ className }) {
   };
 
   return (
-    <nav className=" flex justify-between items-center h-20 backdrop-blur-md shadow-xl py-5 px-4 z-50">
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md shadow-xl py-5 px-4 z-50 sticky top-0">
       {/* Left Icon */}
       <div className="flex items-center">
         <MdPerson size={24} className="text-white" />
