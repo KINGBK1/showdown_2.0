@@ -16,6 +16,7 @@ body {
 }
 *::-moz-progress-bar {
   display: none;
+}
 
 .glass-card {
   backdrop-filter: blur(7px) saturate(200%);
@@ -48,4 +49,4 @@ body {
 
 
 
-}}
+}
