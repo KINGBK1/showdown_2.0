@@ -2,42 +2,36 @@ import { finance, healthcare } from "../Assets";
 
 export const timeline = [
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "Hackathon Registration Starts",
+    desc: "Registration opens for all interested participants. Sign up to secure your spot and receive event details.",
+    date: "1st NOV",
   },
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "Problem Statement Release",
+    desc: "The hackathon's problem statements are released. Start brainstorming and ideating solutions with your team.",
+    date: "7th NOV",
   },
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "PPT and Prototype Submission",
+    desc: "Submit your initial PPT and prototype outlining your solution approach and design.",
+    date: "14th NOV",
   },
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "Confirmation for Participation",
+    desc: "Confirmed participants will be notified. Prepare for the upcoming hackathon day!",
+    date: "18th NOV",
   },
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "12-Hour Hackathon Day",
+    desc: "Get ready for a full day of coding and collaboration. Develop, test, and refine your solution.",
+    date: "21st NOV",
   },
   {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
+    title: "Awards and Closing Ceremony",
+    desc: "Celebrate the successful completion of the hackathon. Winners are announced, and prizes are awarded.",
+    date: "22nd NOV",
   },
-  {
-    title:"Problem Statement release",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis exercitationem maxime numquam impedit reprehenderit animi?",
-    date: "19 OCT"
-  },
-
-]
+];
 
 export const faq = [
   {
