@@ -22,7 +22,7 @@ export default function Navbar({ className }) {
 
       {/* Desktop Menu Items */}
       <div className="hidden md:flex gap-4">
-        {["about", "rules", "schedule", "problem-statements" ,"contact"].map((ele) => (
+        {["about", "rules", "schedule", "problem-statements","leaderboard" ,"contact"].map((ele) => (
           <a
             href={`/${ele}`}
             key={ele}
