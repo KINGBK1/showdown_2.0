@@ -15,6 +15,9 @@ module.exports = {
       screens: {
         md: "960px",
       },
+      fontSize: {
+        md: "0.875rem",
+      },
     },
   },
   darkMode: "class",

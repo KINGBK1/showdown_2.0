@@ -1,5 +1,5 @@
 import BG from "./Images/background.jpg";
-import Logo from "./Images/logo.avif";
+import Logo from "./Images/logo.png";
 import HomeLeft from "./Images/HomeLeft.png";
 import HomeLeft2 from "./Images/HomeLeft2.png";
 import HomeLeft3 from "./Images/HomeLeft3.png";
@@ -11,6 +11,8 @@ import build from "./Images/build.png";
 import innovate from "./Images/innovate.png";
 import connections from "./Images/connections.png";
 import robot from "./Images/robot.png";
+import map from "./Images/map.png";
+import contact from "./Images/contact.png";
 
 export {
   BG,
@@ -26,4 +28,6 @@ export {
   innovate,
   connections,
   robot,
+  map,
+  contact,
 };

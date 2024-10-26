@@ -3,6 +3,7 @@ import { Button } from "@nextui-org/react";
 import { MdPerson } from "react-icons/md";
 import { PrimaryButton } from "../Buttons/PrimaryButton";
 import { SecondaryButton } from "../Buttons/SecondaryButton";
+import { Logo } from "../../Assets";
 
 export default function Navbar({ className }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,18 +17,18 @@ export default function Navbar({ className }) {
     <nav className=" flex justify-between items-center h-20 backdrop-blur-md shadow-xl py-5 px-4 z-50 sticky top-0">
       {/* Left Icon */}
       <div className="flex items-center">
-        <MdPerson size={24} className="text-white" />
+        <img src={Logo} alt="Logo" className="w-28 h-28" />
       </div>
 
       {/* Desktop Menu Items */}
       <div className="hidden md:flex gap-4">
-        {["About", "Rules", "Schedule", "Problem Statements" ,"Contact"].map((ele) => (
+        {["about", "rules", "schedule", "problem-statements" ,"contact"].map((ele) => (
           <a
-            href={`${ele}`}
+            href={`/${ele}`}
             key={ele}
-            className="text-white mx-4 cursor-pointer hover:underline text-xl"
+            className="text-white mx-4 cursor-pointer hover:underline text-xl capitalize"
           >
-            {ele}
+            {ele.replace("-", " ")}
           </a>
         ))}
       </div>
