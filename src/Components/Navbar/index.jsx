@@ -3,7 +3,8 @@ import { Button } from "@nextui-org/react";
 import { MdPerson } from "react-icons/md";
 import { PrimaryButton } from "../Buttons/PrimaryButton";
 import { SecondaryButton } from "../Buttons/SecondaryButton";
-import { Logo } from "../../Assets";
+import { dgplogo, glug, Logo } from "../../Assets";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ className }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,24 +13,51 @@ export default function Navbar({ className }) {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const navigate = useNavigate();
 
   return (
-    <nav className=" flex justify-between items-center h-20 backdrop-blur-md shadow-xl py-5 px-4 z-50 sticky top-0">
-      {/* Left Icon */}
-      <div className="flex items-center">
-        <img src={Logo} alt="Logo" className="w-28 h-28" />
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0 bg-black/50 border-b-1 border-pink-500/40 shadow-md shadow-pink-300/20">
+      <div className=" flex items-center px-4">
+        <div className=" flex items-center border-r-1 border-white px-4 gap-4">
+          <img
+            src={dgplogo}
+            alt="NITDurgapur"
+            className="w-12 h-12 cursor-pointer "
+            onClick={() => window.open("https://www.nitdgp.ac.in/", "_blank")}
+          />
+          <img
+            src={glug}
+            alt="GLUG"
+            className="w-12 h-12 cursor-pointer "
+            onClick={() => window.open("https://nitdgplug.org/", "_blank")}
+          />
+        </div>
+        <img
+          src={Logo}
+          alt="Logo"
+          className="w-20 h-20 cursor-pointer "
+          onClick={() => navigate("/")}
+        />
       </div>
 
       {/* Desktop Menu Items */}
       <div className="hidden md:flex gap-4">
-        {["about", "rules", "schedule", "problem-statements","leaderboard" ,"contact"].map((ele) => (
-          <a
-            href={`/${ele}`}
+        {[
+          "rules",
+          "schedule",
+          "problem-statements",
+          "leaderboard",
+          "contact",
+        ].map((ele) => (
+          <div
+            onClick={() => {
+              navigate(`/${ele}`);
+            }}
             key={ele}
             className="text-white mx-4 cursor-pointer hover:underline text-xl capitalize"
           >
             {ele.replace("-", " ")}
-          </a>
+          </div>
         ))}
       </div>
 

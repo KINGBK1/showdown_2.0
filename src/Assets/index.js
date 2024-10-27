@@ -13,7 +13,9 @@ import connections from "./Images/connections.webp";
 import robot from "./Images/robot.webp";
 import map from "./Images/map.webp";
 import contact from "./Images/contact.webp";
-
+import dgplogo from "./Images/dgplogo.png";
+import glug from "./Images/glug.png";
+import limit from "./Images/limit.png";
 export {
   BG,
   Logo,
@@ -30,4 +32,7 @@ export {
   robot,
   map,
   contact,
+  dgplogo,
+  glug,
+  limit,
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterImg, robot } from "../../Assets";
+import { dgplogo, FooterImg, glug, robot } from "../../Assets";
 import {
   FaFacebook,
   FaInstagram,
@@ -14,7 +14,7 @@ function Footer() {
         <div className=" flex flex-col gap-5 py-2 px-2 md:w-[30%]   h-full">
           <div className="flex gap-2  ">
             <img
-              src={"https://nitdgp.ac.in/front/assets/images/logo.png"}
+              src={dgplogo}
               alt="NITDurgapur"
               className="w-16 h-16"
             />
@@ -28,8 +28,8 @@ function Footer() {
           </div>
           <div className="flex gap-2  ">
             <img
-              src={"https://avatars.githubusercontent.com/u/8604574?s=200&v=4"}
-              alt="NITDurgapur"
+              src={glug}
+              alt="GLUG"
               className="w-16 h-16"
             />
             <div className=" flex flex-col w-max">

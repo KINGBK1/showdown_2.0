@@ -3,17 +3,30 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   z-index: -1;
 }
+
+/* .sec-bg{
+  background-image: linear-gradient(to right, rgba(211, 94, 211, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  background-attachment: fixed;
+  z-index: 5;
+} */
 
 body {
   font-family: 'Play', sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
   display: none;
 }
+
 *::-moz-progress-bar {
   display: none;
 }
@@ -46,7 +59,38 @@ body {
   .only-show-on-small-screen {
     display: block;
   }
+}
+
+/* .i {
+  position: absolute;
+  z-index: 1000;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fa6dff;
+  pointer-events: none;
+  animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x), var(--y));
+  }
+} */
 
 
+.rotating-text{
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
 
+.timer-text{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

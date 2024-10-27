@@ -1,5 +1,6 @@
 import App from "../App";
 import Contact from "../Pages/Contact";
+import RulesPage from "../Pages/Rules";
 import { Schedule } from "../Pages/Schedule";
 
 export const routes = [
@@ -15,4 +16,8 @@ export const routes = [
     path: "/contact",
     element: <Contact />,
   },
+  {
+    path: "/rules",
+    element: <RulesPage />,
+  }
 ];

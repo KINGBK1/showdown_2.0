@@ -96,18 +96,15 @@ export const faq = [
 export const stats = [
   {
     title: "Registrations",
-    subtitle:
-      "Talented individuals signing up to be part of this tech extravaganza.",
+   
     number: 400,
   },
   {
     title: "Prize Pool",
-    subtitle: "Cash, internships, and other rewards for the top innovators.",
     number: 15000,
   },
   {
     title: "Duration",
-    subtitle: "Twelve hours of non-stop coding, collaboration, and creativity.",
     number: 12,
   },
 ];
