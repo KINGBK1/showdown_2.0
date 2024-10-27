@@ -49,6 +49,14 @@ body {
 
 
 
+@keyframes svgAnimation {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 /* For screen below 950px */
 @media screen and (max-width: 960px) {
 

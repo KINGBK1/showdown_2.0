@@ -5,7 +5,7 @@ import { timeline } from "../utils/helpers";
 import { TimeLineCard } from "../Components/TimelineCard.jsx";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-export const Schedule = () => {
+const Schedule = () => {
   const slideLeft = () => {
     var slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft - 2000;
@@ -26,7 +26,7 @@ export const Schedule = () => {
             Get a quick look at the timeline of Showdown
           </p>
         </div>
-        <div className="flex h-auto py-10 items-center">
+        <div className="flex h-auto py-10 md:py-0 mb-10 items-center">
           <MdChevronLeft
             size={48}
             onClick={slideLeft}
@@ -61,3 +61,5 @@ export const Schedule = () => {
     </PageContainer>
   );
 };
+
+export default Schedule

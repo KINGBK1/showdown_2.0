@@ -1,7 +1,8 @@
 import App from "../App";
 import Contact from "../Pages/Contact";
 import RulesPage from "../Pages/Rules";
-import { Schedule } from "../Pages/Schedule";
+import ProblemStatements from "../Pages/ProblemStatements";
+import Schedule from "../Pages/Schedule";
 
 export const routes = [
   {
@@ -9,8 +10,16 @@ export const routes = [
     element: <App />,
   },
   {
+    path: "/about",
+    element: <App />,
+  },
+  {
     path: "/schedule",
     element: <Schedule />,
+  },
+  {
+    path: "/problem-statements",
+    element: <ProblemStatements />,
   },
   {
     path: "/contact",
