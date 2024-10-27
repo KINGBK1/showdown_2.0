@@ -7,7 +7,7 @@ const ProblemStatements = () => {
   const themes = ["Healthcare", "Finance"];
   const [isActive, setIsActive] = useState(themes[0]);
 
-  console.log(problemStatements[isActive]);
+//   console.log(problemStatements[isActive]);
   return (
     <PageContainer>
       <div className="flex flex-col mt-10 md:h-[90vh]">
@@ -40,7 +40,7 @@ const ProblemStatements = () => {
           </div>
           <div className="flex w-full">
             <div className="bg-gray-200/5 w-5/12 backdrop-blur-sm rounded-tl-xl border border-b-0 border-r-0 border-t-pink-900 border-l-pink-900 "></div>
-            <div className="w-2/12  bg-gray-200/5 backdrop-blur-sm"></div>
+            <div className="w-2/12  bg-gray-200/5 backdrop-blur-sm border border-b-0 border-l-0 border-r-0 border-t-pink-900 md:border-0"></div>
 
             <div className="bg-gray-200/5 w-5/12 backdrop-blur-sm border border-b-0 border-l-0 border-t-pink-900 border-r-pink-900"></div>
           </div>

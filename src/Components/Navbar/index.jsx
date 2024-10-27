@@ -8,7 +8,13 @@ import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ className }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const navbarItems =[
+    "rules",
+    "schedule",
+    "problem-statements",
+    "leaderboard",
+    "contact",
+  ]
   // Toggle the mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -42,13 +48,7 @@ export default function Navbar({ className }) {
 
       {/* Desktop Menu Items */}
       <div className="hidden md:flex gap-4">
-        {[
-          "rules",
-          "schedule",
-          "problem-statements",
-          "leaderboard",
-          "contact",
-        ].map((ele) => (
+        {navbarItems.map((ele) => (
           <div
             onClick={() => {
               navigate(`/${ele}`);
@@ -91,10 +91,13 @@ export default function Navbar({ className }) {
       {/* Mobile Menu (visible when isMenuOpen is true) */}
       {isMenuOpen && (
         <div className="absolute top-20 left-0 w-full bg-black flex flex-col items-center gap-3 py-4 z-50">
-          {["About", "Rules", "Schedule", "Sponsors"].map((ele) => (
+          {navbarItems.map((ele) => (
             <div
               key={ele}
-              className="text-white cursor-pointer hover:underline"
+              className="text-white cursor-pointer capitalize hover:underline"
+              onClick={() => {
+                navigate(`/${ele}`);
+              }}
             >
               {ele}
             </div>
