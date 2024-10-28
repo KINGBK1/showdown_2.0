@@ -10,7 +10,7 @@ const ProblemStatements = () => {
 //   console.log(problemStatements[isActive]);
   return (
     <PageContainer>
-      <div className="flex flex-col mt-10 md:h-[90vh]">
+      <div className="flex flex-col mt-10">
         <div className="text-center mb-8">
           <p className="text-3xl md:text-5xl font-bold">
             Look at the <span className="text-primaryPink">Statements</span>
