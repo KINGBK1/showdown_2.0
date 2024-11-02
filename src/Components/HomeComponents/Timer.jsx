@@ -26,10 +26,10 @@ function Timer({ targetDate }) {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <div className=" min-h-[25vh] flex flex-col gap-5 justify-center items-center">
-      <p className=" text-5xl font-bold text-primaryPink">Hackthon Starts in</p>
+    <div className=" md:min-h-[25vh] flex flex-col gap-5 justify-center items-center">
+      <p className=" text-3xl md:text-5xl font-bold text-primaryPink">Hackthon Starts in</p>
       {timeLeft.days !== undefined ? (
-        <div className=" flex items-center gap-5 text-3xl timer-text">
+        <div className=" flex items-center gap-5 md:text-3xl timer-text">
           <span>{timeLeft.days} <span className=" text-white/70">days</span> </span>
           <span>{timeLeft.hours} <span className=" text-white/70">hours</span> </span>
           <span>{timeLeft.minutes} <span className=" text-white/70">minutes</span> </span>
