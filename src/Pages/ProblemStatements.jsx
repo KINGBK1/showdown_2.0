@@ -20,13 +20,13 @@ const ProblemStatements = () => {
           </p>
         </div>
         <div className=" p-10">
-          <div className="w-full flex justify-center md:px-0">
-            <div className="flex items-center justify-center backdrop-blur-sm border border-pink-900 border-b-0 bg-gray-200/5 h-16 md:h-24 w-full md:w-6/12 lg:w-2/12 rounded-t-3xl pt-2 px-2">
+          <div className="w-full flex justify-center md:px-0 pt-4">
+            <div className="flex items-center justify-center backdrop-blur-sm border border-pink-900 border-b-0 bg-gray-200/5 h-16 md:h-20 w-full md:w-6/12 lg:w-2/12 rounded-t-3xl pt-2 px-2">
               {themes.map((theme, idx) => (
                 <button
                   key={idx}
                   onClick={() => setIsActive(theme)}
-                  className={`rounded-full text-sm md:text-xl h-10 md:h-full w-full flex justify-center items-center transition-colors duration-300 ease-in-out
+                  className={`rounded-2xl text-sm md:text-xl h-10 md:h-full w-full flex justify-center items-center transition-colors duration-300 ease-in-out
           ${
             isActive === theme
               ? "bg-zinc-800 text-white"

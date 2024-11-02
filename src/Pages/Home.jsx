@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import PageContainer from "../Components/PageContainer";
 import Timer from "../Components/HomeComponents/Timer";
@@ -8,8 +8,11 @@ import WhyThisHackathon from "../Components/HomeComponents/WhyThisHackathon";
 import Stats from "../Components/HomeComponents/Stats";
 import Themes from "../Components/HomeComponents/Themes";
 import FAQs from "../Components/HomeComponents/Faq";
+import MarkdownEditor from "@uiw/react-markdown-editor";
 
 function Home() {
+  const [markdown, setMarkdown] = useState("");
+
   return (
     <>
       <PageContainer>
@@ -19,9 +22,16 @@ function Home() {
         <div className=" sec-bg">
           <Stats />
           <WhyThisHackathon />
+          {console.log(markdown)}
           <Themes />
         </div>
+
         <FAQs />
+        <MarkdownEditor
+      value={markdown}
+      height="200px"
+      onChange={(value, viewUpdate) => setMarkdown(value)}
+    />
       </PageContainer>
     </>
   );
