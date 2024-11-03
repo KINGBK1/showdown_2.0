@@ -18,7 +18,13 @@ function Contact() {
 
         <div className=" w-full h-max relative flex justify-center items-center ">
           <div className="absolute  w-52 h-52 bg-primaryPink rounded-full blur-3xl z-20"></div>
-          <img src={contact} alt="contact" className="w-96 h-96 z-30" />
+          <img
+            src={
+              "https://res.cloudinary.com/dogqbjx8a/image/upload/contact_kldkjl.webp"
+            }
+            alt="contact"
+            className="w-96 h-96 z-30"
+          />
         </div>
         <p className="text-center text-lg w-4/5 mx-auto">
           Have questions, feedback, or need assistance? We’re here to help!
@@ -98,7 +104,9 @@ function Contact() {
           <div className="w-full md:min-h-[40vh] border-1 glass-card">
             {" "}
             <img
-              src={map}
+              src={
+                "https://res.cloudinary.com/dogqbjx8a/image/upload/map_oucub4.webp"
+              }
               alt="map"
               className="w-full rounded-xl cursor-pointer"
               onClick={() => {

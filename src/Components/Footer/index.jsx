@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className=" backdrop-blur-md w-full  min-h-[35vh] pt-10  relative mb-20 md:mb-0 border-t-1 border-white/20">
+    <div className=" backdrop-blur-md w-full  min-h-[35vh] pt-10 pb-5  relative mb-20 md:mb-0 border-t-1 border-white/20">
       <div className=" flex flex-col md:flex-row justify-between w-[90%] mx-auto relative   my-5">
         <div className=" flex flex-col gap-5 py-2 px-2 md:w-[30%]   h-full">
           <div className="flex gap-2  ">
@@ -85,9 +85,9 @@ function Footer() {
         <p className=" text-white text-lg md:text-xl font-bold">
           Made with ❤️ by GNU/Linux Users' Group
         </p>
-        <p className=" text-white/50 text-md md:text-base font-bold">
+        {/* <p className=" text-white/50 text-md md:text-base font-bold">
           Copyright © {new Date().getFullYear()} GNU/Linux Users' Group
-        </p>
+        </p> */}
       </div>
     </div>
   );

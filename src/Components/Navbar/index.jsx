@@ -22,7 +22,7 @@ export default function Navbar({ className }) {
   const navigate = useNavigate();
 
   return (
-    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0 bg-black/50 border-b-1 border-pink-500/40 shadow-md shadow-pink-300/20">
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0">
       <div className=" flex items-center px-4">
         <div className=" flex items-center border-r-1 border-white px-4 gap-4">
           <img
@@ -54,7 +54,7 @@ export default function Navbar({ className }) {
               navigate(`/${ele}`);
             }}
             key={ele}
-            className="text-white mx-4 cursor-pointer hover:underline text-xl capitalize"
+            className="text-white mx-4 cursor-pointer hover:underline text-xl uppercase"
           >
             {ele.replace("-", " ")}
           </div>

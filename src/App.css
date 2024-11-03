@@ -1,25 +1,21 @@
-.main-bg {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/background.jpg");
+.sec-bg {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("https://res.cloudinary.com/dogqbjx8a/image/upload/rear-view-programmer-working-all-night-long_cbb94a.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 5;
+}
+
+body {
+  /* font-family: 'Play', sans-serif; */
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.856)), url("https://res.cloudinary.com/dogqbjx8a/image/upload/futuristic-view-high-tech-earth-planet_1_giivvh.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -1;
-}
-
-/* .sec-bg{
-  background-image: linear-gradient(to right, rgba(211, 94, 211, 0.671), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.486)), url("./Assets/Images/bg.avif");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(10px);
-  background-attachment: fixed;
-  z-index: 5;
-} */
-
-body {
-  font-family: 'Play', sans-serif;
-  color: white;
   scroll-behavior: smooth;
 }
 
@@ -53,10 +49,12 @@ body {
   0% {
     stroke-dashoffset: 1000;
   }
+
   100% {
     stroke-dashoffset: 0;
   }
 }
+
 /* For screen below 950px */
 @media screen and (max-width: 960px) {
 
@@ -69,7 +67,7 @@ body {
   }
 }
 
-/* .i {
+.i {
   position: absolute;
   z-index: 1000;
   width: 4px;
@@ -85,23 +83,29 @@ body {
     opacity: 1;
     transform: translate(0, 0);
   }
+
   100% {
     opacity: 0;
     transform: translate(var(--x), var(--y));
   }
-} */
+}
 
 
-.rotating-text{
+.rotating-text {
   -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
-.timer-text{
+.timer-text {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.wmde-markdown{
+
+.wmde-markdown {
   background: transparent !important;
+}
+
+.timer {
+  font-family: 'Orbitron', sans-serif;
 }

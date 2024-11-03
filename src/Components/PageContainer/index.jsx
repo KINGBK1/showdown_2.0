@@ -33,8 +33,8 @@ function PageContainer({ children }) {
   }, []);
 
   return (
-    <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden mg">
-      <div className="h-screen w-screen absolute top-0 left-0 z-[5] main-bg backdrop-blur-sm"></div>
+    <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden ">
+      {/* <div className="h-screen w-screen absolute top-0 left-0 z-[5] main-bg backdrop-blur-sm"></div> */}
       <Navbar />
       {children}
       <Footer />

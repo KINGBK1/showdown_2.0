@@ -3,7 +3,7 @@ import { stats } from "../../utils/helpers";
 
 function Stats() {
   return (
-    <div className=" flex flex-col-reverse md:flex-row  gap-4 w-full min-h-[30vh] mx-auto  py-6 md:py-10 rounded-xl relative my-5   mt-7 md:mt-20">
+    <div className=" flex flex-col-reverse md:flex-row  gap-4 w-full min-h-[30vh] mx-auto  py-6 md:py-10 rounded-xl relative ">
       <div className=" w-full md:w-1/2 px-6  grid grid-cols-2   gap-4">
           {stats.map((item, index) => (
             <div

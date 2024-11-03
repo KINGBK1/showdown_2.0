@@ -129,36 +129,36 @@ export const whyUs = [
     title: " Unleash Innovation",
     subtitle:
       "At Showdown 1.0, we're bringing together the brightest minds in tech, design, and entrepreneurship to collaborate on real-world problems. This is more than just a hackathon — it's a platform for turning bold ideas into impactful solutions.",
-    image: innovate,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/innovate_iytsse.webp",
   },
   {
     title: "Build Your Network",
     subtitle:
       "Connect with like-minded developers, industry professionals, and mentors. Showdown 1.0 gives you access to invaluable networking opportunities that can take your career to the next level.",
-    image: connections,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/connections_ywkg1f.webp",
   },
   {
     title: "Thrilling Challenges, Limited Time",
     subtitle:
       "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
-    image: build,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/build_zr7yix.webp",
   },
   {
     title: "Real-World Impact",
     subtitle:
       "This isn't just for fun — we're looking for solutions that can make a tangible difference. Whether you're tackling climate change or rethinking healthcare, your projects at Showdown 1.0 have the potential to go beyond the hackathon.",
-    image: boyGame,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/boyGame_dckqbr.webp",
   },
   {
     title: "Thrilling Challenges, Limited Time",
     subtitle:
       "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
-    image: build,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/build_zr7yix.webp",
   },
   {
     title: "Thrilling Challenges, Limited Time",
     subtitle:
       "It's a race against time! In just 12 hours, you'll need to collaborate, build, and innovate to present a solution that stands out. Show us what you can achieve under pressure!",
-    image: build,
+    image: "https://res.cloudinary.com/dogqbjx8a/image/upload/build_zr7yix.webp",
   },
 ];

@@ -34,7 +34,7 @@ const StatementCard = ( {statement} ) => {
         strokeLinejoin="round"
         style={{
           fill: 'none',
-          stroke: '#4a5568',
+          stroke: '#F32283',
           strokeWidth: 2,
           strokeDasharray: 510,
           animation: 'svgAnimation 5s linear infinite',
@@ -60,7 +60,7 @@ const StatementCard = ( {statement} ) => {
         radius="lg"
         classNames={{
           body: "py-6",
-          backdrop: "bg-[#25162d]/70",
+          // backdrop: "bg-[#25162d]/70",
           base: "border-[#292f46] bg-[#0e0910] text-[#a8b0d3]",
           header: "border-b-[1px] border-[#292f46]",
           footer: "border-t-[1px] border-[#292f46]",

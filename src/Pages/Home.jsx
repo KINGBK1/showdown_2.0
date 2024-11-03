@@ -8,21 +8,21 @@ import WhyThisHackathon from "../Components/HomeComponents/WhyThisHackathon";
 import Stats from "../Components/HomeComponents/Stats";
 import Themes from "../Components/HomeComponents/Themes";
 import FAQs from "../Components/HomeComponents/Faq";
+import Sponsers from "../Components/HomeComponents/Sponsers";
 
 function Home() {
-
-
   return (
     <>
       <PageContainer>
         <LandingPage />
         <RotatingText />
-        <Timer targetDate={new Date("2025-01-17T00:00:00")} />
-        <div className=" sec-bg">
-          <Stats />
-          <WhyThisHackathon />
-          <Themes />
+        <div className="sec-bg">
+          {/* <Timer targetDate={new Date("2025-01-17T00:00:00")} /> */}
+        <Stats />
+        <Themes />
         </div>
+        {/* <WhyThisHackathon /> */}
+        <Sponsers />
 
         <FAQs />
       </PageContainer>
