@@ -37,7 +37,7 @@ const StatementCard = ({ statement }) => {
             strokeLinejoin="round"
             style={{
               fill: "none",
-              stroke: "#4a5568",
+              stroke: "#f32283",
               strokeWidth: 2,
               strokeDasharray: 510,
               animation: "svgAnimation 5s linear infinite",

@@ -104,6 +104,7 @@ body {
 
 .wmde-markdown {
   background: transparent !important;
+  color:rgba(255, 255, 255, 0.76) !important;
 }
 
 .timer {
