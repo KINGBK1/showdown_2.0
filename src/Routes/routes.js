@@ -11,6 +11,8 @@ const Routes = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    document.body.style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.856)), url("https://res.cloudinary.com/dogqbjx8a/image/upload/futuristic-view-high-tech-earth-planet_1_giivvh.webp")`;
+
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

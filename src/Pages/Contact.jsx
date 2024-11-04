@@ -11,12 +11,12 @@ import UITextArea from "../Components/Input/TextArea";
 function Contact() {
   return (
     <PageContainer>
-      <div className=" flex flex-col justify-center items-center pt-10">
+      <div className=" flex flex-col justify-center items-center pt-10 mb-10 mt-7">
         <p className="text-3xl text-primaryPink  font-bold">
           FEEL FREE TO CONTACT US
         </p>
 
-        <div className=" w-full h-max relative flex justify-center items-center ">
+        {/* <div className=" w-full h-max relative flex justify-center items-center ">
           <div className="absolute  w-52 h-52 bg-primaryPink rounded-full blur-3xl z-20"></div>
           <img
             src={
@@ -25,7 +25,7 @@ function Contact() {
             alt="contact"
             className="w-96 h-96 z-30"
           />
-        </div>
+        </div> */}
         <p className="text-center text-lg w-4/5 mx-auto">
           Have questions, feedback, or need assistance? We’re here to help!
           Reach out to us, and our team will get back to you as soon as
