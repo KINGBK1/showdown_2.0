@@ -6,7 +6,7 @@ function Sponsers() {
       {" "}
       <div className="">
         <p className=" text-5xl text-center font-bold uppercase">
-          Our <span className=" text-primaryPink">Sponsers</span>
+          Our <span className=" text-primaryPink">Sponsors</span>
         </p>
       </div>
       <div className=" flex flex-wrap gap-10 justify-center my-6">
