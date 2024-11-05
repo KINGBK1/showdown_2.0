@@ -26,17 +26,17 @@ export const timeline = [
   {
     title: "Confirmation for Participation",
     desc: "Confirmed participants will be notified. Prepare for the upcoming hackathon day!",
-    date: "18th NOV",
+    date: "30th NOV",
   },
   {
     title: "12-Hour Hackathon Day",
     desc: "Get ready for a full day of coding and collaboration. Develop, test, and refine your solution.",
-    date: "21st NOV",
+    date: "18th JAN",
   },
   {
     title: "Awards and Closing Ceremony",
     desc: "Celebrate the successful completion of the hackathon. Winners are announced, and prizes are awarded.",
-    date: "22nd NOV",
+    date: "19th JAN",
   },
 ];
 
