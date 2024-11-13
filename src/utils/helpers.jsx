@@ -9,35 +9,45 @@ import {
 
 export const timeline = [
   {
-    title: "Hackathon Registration Starts",
-    desc: "Registration opens for all interested participants. Sign up to secure your spot and receive event details.",
-    date: "1st NOV",
+    title: "Registration",
+    desc: "Registration for Showdownn is now open to all eligible participants! Don’t miss the chance to take on exciting challenges and showcase your skills in NIT Durgapur’s premier hackathon. Secure your spot by registering early.",
+    date: "13th Nov"
   },
   {
-    title: "Problem Statement Release",
-    desc: "The hackathon's problem statements are released. Start brainstorming and ideating solutions with your team.",
-    date: "7th NOV",
+    title: "Problem Statement Drop",
+    desc: "The problem statements for Showdownn will be released, officially kicking off this year’s hackathon. Participants can explore two domains—Healthcare and Finance—each featuring three unique challenges crafted to test creativity, technical skills, and problem-solving abilities. Choose one problem statement from either domain to begin your project, and prepare to submit your prototype and presentation for evaluation.",
+    date: "15th Nov"
   },
   {
-    title: "PPT and Prototype Submission",
-    desc: "Submit your initial PPT and prototype outlining your solution approach and design.",
-    date: "14th NOV",
+    title: "Submission Deadline",
+    desc: "Finalize and submit your initial PPT and prototype by this date, showcasing your approach and design direction. Make sure everything’s ready to demonstrate your solution’s potential!",
+    date: "10th Dec"
   },
   {
-    title: "Confirmation for Participation",
-    desc: "Confirmed participants will be notified. Prepare for the upcoming hackathon day!",
-    date: "30th NOV",
+    title: "Shortlisted Teams Announced & Payment Portal Opens",
+    desc: "Check your inbox for the official shortlist! Confirm your spot and prepare for the next stage by completing the payment process. Teams from outside NIT Durgapur will need to pay ₹1000, while NIT Durgapur teams will pay ₹500 to secure their participation.",
+    date: "14th Dec"
   },
   {
-    title: "12-Hour Hackathon Day",
-    desc: "Get ready for a full day of coding and collaboration. Develop, test, and refine your solution.",
-    date: "18th JAN",
+    title: "Payment Portal Closes",
+    desc: "This is the final day to complete payment for shortlisted teams. Ensure all formalities are completed to confirm your participation in the next round.",
+    date: "17th Dec"
   },
   {
-    title: "Awards and Closing Ceremony",
-    desc: "Celebrate the successful completion of the hackathon. Winners are announced, and prizes are awarded.",
-    date: "19th JAN",
+    title: "Final Shortlist for Offline Hackathon Announced",
+    desc: "The final list of teams advancing to the offline hackathon at NIT Durgapur will be announced. Stay tuned to see if your team made it to the in-person round!",
+    date: "20th Dec"
   },
+  {
+    title: "Hackathon Day - 12 Hours of Pure Innovation",
+    desc: "It’s showtime! Join us on campus for an intense, 12-hour coding marathon, where you and your team will build, test, and refine your solution to meet the challenge head-on.",
+    date: "18th Jan"
+  },
+  {
+    title: "Awards Ceremony and Closing Celebration",
+    desc: "Celebrate the creativity, hard work, and achievements of all participants! Winners will be announced, and the hackathon will conclude with a closing celebration for everyone involved.",
+    date: "19th Jan"
+  }
 ];
 
 export const faq = [
@@ -128,13 +138,13 @@ export const whyUs = [
   {
     title: " Unleash Innovation",
     subtitle:
-      "At Showdown 1.0, we're bringing together the brightest minds in tech, design, and entrepreneurship to collaborate on real-world problems. This is more than just a hackathon — it's a platform for turning bold ideas into impactful solutions.",
+      "At Showdownn 1.0, we're bringing together the brightest minds in tech, design, and entrepreneurship to collaborate on real-world problems. This is more than just a hackathon — it's a platform for turning bold ideas into impactful solutions.",
     image: "https://res.cloudinary.com/dogqbjx8a/image/upload/innovate_iytsse.webp",
   },
   {
     title: "Build Your Network",
     subtitle:
-      "Connect with like-minded developers, industry professionals, and mentors. Showdown 1.0 gives you access to invaluable networking opportunities that can take your career to the next level.",
+      "Connect with like-minded developers, industry professionals, and mentors. Showdownn 1.0 gives you access to invaluable networking opportunities that can take your career to the next level.",
     image: "https://res.cloudinary.com/dogqbjx8a/image/upload/connections_ywkg1f.webp",
   },
   {
@@ -146,7 +156,7 @@ export const whyUs = [
   {
     title: "Real-World Impact",
     subtitle:
-      "This isn't just for fun — we're looking for solutions that can make a tangible difference. Whether you're tackling climate change or rethinking healthcare, your projects at Showdown 1.0 have the potential to go beyond the hackathon.",
+      "This isn't just for fun — we're looking for solutions that can make a tangible difference. Whether you're tackling climate change or rethinking healthcare, your projects at Showdownn 1.0 have the potential to go beyond the hackathon.",
     image: "https://res.cloudinary.com/dogqbjx8a/image/upload/boyGame_dckqbr.webp",
   },
   {

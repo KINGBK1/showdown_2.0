@@ -9,7 +9,7 @@ function Themes() {
         <span className=" text-primaryPink">Themes</span>
       </p>
       <p className=" text-white/70 text-xl text-center">
-        Explore the diverse themes that await you at Showdown
+        Explore the diverse themes that await you at Showdownn
       </p>
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
         {themes.map((item, index) => (

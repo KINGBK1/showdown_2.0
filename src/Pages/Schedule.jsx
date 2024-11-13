@@ -23,7 +23,7 @@ const Schedule = () => {
             Keep the <span className="text-primaryPink">Dates</span>
           </p>
           <p className="text-white/70 text-lg md:text-xl">
-            Get a quick look at the timeline of Showdown
+            Get a quick look at the timeline of Showdownn
           </p>
         </div>
         <div className="flex h-auto py-10 md:py-0 mb-10 items-center">
@@ -41,7 +41,7 @@ const Schedule = () => {
                 <TimeLineCard idx={index} obj={obj} />
                 {index !== timeline.length - 1 && (
                   <div
-                    className={`bg-zinc-300 h-[228px] md:h-[312px] w-[4px] md:w-[8px] ${
+                    className={`bg-zinc-300 h-[260px] md:h-[216px] w-[4px] md:w-[8px] ${
                       index % 2 !== 0
                         ? "rounded-br-md rounded-tl-md"
                         : "rounded-tr-md rounded-bl-md"

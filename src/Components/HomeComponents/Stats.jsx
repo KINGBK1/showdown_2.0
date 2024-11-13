@@ -27,7 +27,7 @@ function Stats() {
           At a <span className=" text-primaryPink">Glance</span>
         </p>
         <p className=" text-white/70 text-xl text-center">
-          Get a quick look at the impact and scale of Showdown
+          Get a quick look at the impact and scale of Showdownn
         </p>
       </div>
     </div>

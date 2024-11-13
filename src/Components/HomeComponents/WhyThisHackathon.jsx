@@ -8,10 +8,10 @@ function WhyThisHackathon() {
     <div className=" flex flex-col gap-4 w-[90vw]  mx-auto  py-10 rounded-xl relative my-5">
       <div className="">
         <p className=" text-5xl text-center font-bold uppercase">
-          Why <span className=" text-primaryPink">Showdown 1.0 ?</span>
+          Why <span className=" text-primaryPink">Showdownn 1.0 ?</span>
         </p>
         <p className=" text-white/70 text-xl text-center">
-          Explore the reasons why Showdown 1.0 is the perfect platform for you
+          Explore the reasons why Showdownn 1.0 is the perfect platform for you
         </p>
       </div>
       <div className=" w-full md:w-4/5 mx-auto">

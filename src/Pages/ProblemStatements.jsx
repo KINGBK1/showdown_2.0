@@ -16,7 +16,7 @@ const ProblemStatements = () => {
             Look at the <span className="text-primaryPink">Statements</span>
           </p>
           <p className="text-white/70 text-lg md:text-xl">
-            Solve one of these problems of Showdown
+            Solve one of these problems of Showdownn
           </p>
         </div>
         <div className=" p-10">

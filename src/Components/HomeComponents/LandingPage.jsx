@@ -30,7 +30,7 @@ function LandingPage() {
           <h1 className="text-lg md:text-3xl font-bold mt-3">
             {/* <span className=" text-xl">
               Welcome to{" "}
-              <span className=" text-primaryPink font-bold">ShowDown '24</span>
+              <span className=" text-primaryPink font-bold">Showdownn '24</span>
             </span> */}
             The official hackathon of NIT Durgapur
           </h1>
