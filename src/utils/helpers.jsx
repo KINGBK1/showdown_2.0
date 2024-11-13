@@ -50,68 +50,58 @@ export const timeline = [
   }
 ];
 
-export const faq = [
+export const faq =[
   {
-    question: "What is a hackathon?",
-    answer:
-      "A hackathon is an event where people come together to collaborate on software projects in a limited time frame, typically 24-48 hours. Participants work in teams to create innovative solutions, apps, or tools.",
+    "question": "Who can participate in Showdownn?",
+    "answer": "Showdownn is open to all college students from any year and specialization. Inter-college and inter-specialization teams are welcome!"
   },
   {
-    question: "Who can participate in the hackathon?",
-    answer:
-      "Our hackathon is open to everyone, including students, professionals, and hobbyists. Whether you're an experienced coder or a beginner, you are welcome to join!",
+    "question": "How many members are allowed per team?",
+    "answer": "Teams can consist of 1 to 4 members."
   },
   {
-    question: "Do I need to have coding experience to participate?",
-    answer:
-      "No, coding experience is not required. We encourage participants of all skill levels to join, and teams often include people with diverse skills such as design, business, and project management.",
+    "question": "Is there a registration fee?",
+    "answer": "Registration is free for all eligible participants. However, selected teams for the offline hackathon will need to pay a participation fee: ₹1000 for non-NIT Durgapur teams and ₹500 for NIT Durgapur teams."
   },
   {
-    question: "What should I bring to the hackathon?",
-    answer:
-      "You should bring your laptop, chargers, and any other devices or tools you’ll need to work on your project. We’ll provide food, internet, and workspace.",
+    "question": "What is the prize pool for Showdownn?",
+    "answer": "The prize pool is over INR 20,000, along with certificates recognizing your expertise and impact."
   },
   {
-    question: "How do I register for the hackathon?",
-    answer:
-      "You can register on our official hackathon website by following the registration link and filling out the necessary information. Make sure to register before the deadline!",
+    "question": "Will participants receive any goodies or swag?",
+    "answer": "Yes! All eligible participants will receive exclusive Showdownn swag and goodies as a token of appreciation."
   },
   {
-    question: "Is there a team size limit?",
-    answer:
-      "Yes, teams should consist of 1-4 members. If you don’t have a team, don’t worry—we’ll help you find one during the event.",
+    "question": "What are the domains and problem statements for this hackathon?",
+    "answer": "The hackathon will feature two domains: Healthcare and Finance. Each domain includes three unique problem statements designed to test creativity and technical skills."
   },
   {
-    question: "What kind of projects can we build?",
-    answer:
-      "You can work on any project you like, as long as it aligns with the event’s theme (if there is one). It could be a web app, mobile app, game, or hardware project!",
+    "question": "What is the format and duration of the offline hackathon?",
+    "answer": "The offline hackathon will be an intense 12-hour event where teams will develop, test, and polish their solutions."
   },
   {
-    question: "Will there be prizes?",
-    answer:
-      "Yes! We have exciting prizes for the winning teams, including cash prizes, gadgets, and software licenses. More details will be announced soon.",
+    "question": "What will be required for the initial submission?",
+    "answer": "Teams must submit an initial PowerPoint presentation (PPT) by the 12th Dec deadline. A working prototype is optional but encouraged to strengthen your submission. Please note that the registration deadline is on 10th Dec."
   },
   {
-    question: "How are projects judged?",
-    answer:
-      "Projects will be judged based on creativity, technical difficulty, design, and the impact of the solution. Our panel of judges will evaluate all submissions.",
+    "question": "How will teams be shortlisted for the offline round?",
+    "answer": "Teams will be shortlisted based on the quality, feasibility, and creativity of their initial submission. Selected teams will be notified by 14th Dec."
   },
   {
-    question: "What if I have more questions?",
-    answer:
-      "Feel free to contact us through the support page or email us directly at [your-email]. We're happy to help!",
-  },
-];
+    "question": "Where can I find more information on rules, problem statements, and other details?",
+    "answer": "Please visit our website for comprehensive information on rules, problem statements, FAQs, and updates."
+  }
+]
 
 export const stats = [
   {
-    title: "Registrations",
+    title: "Team Size",
    
-    number: 400,
+    number: "1 - 4",
   },
   {
     title: "Prize Pool",
-    number: 15000,
+    number: "20,000+",
   },
   {
     title: "Duration",

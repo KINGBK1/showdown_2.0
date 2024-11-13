@@ -1,11 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PageContainer from "../Components/PageContainer";
 import StatementCard from "../Components/StatementCard/StatementCard";
 import { problemStatements } from "../utils/statements";
+import { useParams } from "react-router-dom";
 
 const ProblemStatements = () => {
   const themes = ["Healthcare", "Finance"];
+  const { setActiveTheme } = useParams();
   const [isActive, setIsActive] = useState(themes[0]);
+
+  useEffect(() => {
+    if(setActiveTheme){
+      console.log(setActiveTheme)
+      setIsActive(setActiveTheme);
+    }
+  }, [setActiveTheme]);
 
 //   console.log(problemStatements[isActive]);
   return (

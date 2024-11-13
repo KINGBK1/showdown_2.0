@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { themes } from "../../utils/helpers";
 import { MdArrowForwardIos } from "react-icons/md";
 
 function Themes() {
+  const navigate = useNavigate();
+
+  const goToTheme = (theme) => {
+    console.log(theme)
+    navigate(`/problem-statements/${theme}`);
+  };
   return (
     <div className=" flex flex-col gap-4 w-[90vw] mx-auto mt-5  min-h-[60vh] relative my-5">
       <p className=" text-5xl text-center font-bold">
@@ -16,6 +23,7 @@ function Themes() {
           <div
             key={index}
             className="relative w-full md:w-3/5 mx-auto px-3 py-4 h-[20rem] z-10  bg-cover bg-center group  shadow-lg overflow-hidden rounded-xl "
+            onClick={()=>{goToTheme(themes[index].title)}}
           >
             <div
               className=" w-full h-full bg-black/60 absolute top-0 left-0 z-0 rounded-xl"

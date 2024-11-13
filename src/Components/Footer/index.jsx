@@ -1,6 +1,7 @@
 import React from "react";
 import { dgplogo, FooterImg, glug, robot } from "../../Assets";
 import {
+  FaDiscord,
   FaFacebook,
   FaInstagram,
   FaLinkedin,
@@ -59,25 +60,25 @@ function Footer() {
         <div className=" flex flex-col md:flex-row md:justify-end  md:gap-3">
           <div className=" mx-4 text-lg md:text-xl flex flex-col min-w-52 md:items-center gap-2 my-4 md:my-0  md:gap-4">
             <p className=" font-bold text-2xl">Hackathon 2024</p>
-            <p className=" cursor-pointer text-lg md:text-xl">Problem Statements</p>
-            <p className=" cursor-pointer text-lg md:text-xl">Rules</p>
-            <p className=" cursor-pointer text-lg md:text-xl">Sponsors</p>
-            <p className=" cursor-pointer text-lg md:text-xl">Contact Us</p>
+            <a href="/problem-statements" className=" cursor-pointer text-lg md:text-xl">Problem Statements</a>
+            <a href="/rules" className=" cursor-pointer text-lg md:text-xl">Rules</a>
+            <a href="/schedule" className=" cursor-pointer text-lg md:text-xl">Schedule</a>
+            <a href="/contact" className=" cursor-pointer text-lg md:text-xl">Contact Us</a>
           </div>
           <div className="flex flex-col min-w-52 md:items-center  my-4 md:my-0 mx-5 gap-4">
             <p className=" font-bold text-2xl">Follow Us</p>
-            <p className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
-              <FaFacebook color="blue" size={20} /> Facebook
-            </p>
-            <p className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
+            <a target="_blank" href="" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
+              <FaDiscord color="blue" size={20} /> Discord
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/company/lugnitdgp/posts/?feedView=all" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
               <FaLinkedin color="blue" size={20} /> Linkedin
-            </p>
-            <p className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/nitdgplug/" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
               <FaInstagram color="purple" size={20} /> Instagram
-            </p>
-            <p className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@GNULinuxUsersGroupNITDurgapur" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
               <FaYoutube color="red" size={20} /> Youtube
-            </p>
+            </a>
           </div>
         </div>
       </div>

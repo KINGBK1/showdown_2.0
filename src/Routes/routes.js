@@ -6,6 +6,7 @@ import Schedule from "../Pages/Schedule";
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HomeLoader from "../Loaders/HomeLoader";
+import ComingSoon from "../Pages/ComingSoon";
 
 const Routes = () => {
   const [loading, setLoading] = useState(true);
@@ -36,7 +37,11 @@ export const routes = [
       },
       {
         path: "/problem-statements",
-        element: <ProblemStatements />,
+        element: <ComingSoon />,
+      },
+      {
+        path: "/problem-statements/:setActiveTheme",
+        element: <ComingSoon />,
       },
       {
         path: "/contact",

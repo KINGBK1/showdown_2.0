@@ -16,83 +16,69 @@ const RulesPage = () => {
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            1. Eligibility
+            1. Eligibility and Registration
           </h2>
-          <ul className="list-disc list-inside  space-y-1">
+          <ul className="list-disc list-inside space-y-1">
             <li>
-              Participants: Open to students, professionals, and enthusiasts.
+              Registration for Showdownn is free for all eligible participants. However, selected teams for the offline hackathon will be required to pay the participation fee: ₹1000 for non-NIT Durgapur teams, ₹500 for NIT Durgapur teams.
+            </li>
+            <li>Team sizes must not exceed 4 members.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
+            2. Team Composition
+          </h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>
+              Teams can consist of participants from any background, with mixed-skill teams encouraged. However, each team must have a unique name.
+            </li>
+            <li>Changes in team composition are not permitted once registration has closed.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
+            3. Problem Statement Selection
+          </h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Participants will have access to problem statements in two domains: Healthcare and Finance. Each domain includes three unique challenges.</li>
+            <li>Teams must select one problem statement from either domain for the duration of the hackathon. Switching challenges mid-way is not allowed.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
+            4. Submission Guidelines
+          </h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>
+              Initial submissions must include a PPT and a working prototype (optional) by the 10th Dec deadline. Only submissions meeting the deadline will be considered for evaluation.
             </li>
             <li>
-              Team Composition: Teams can consist of up to{" "}
-              <strong>[insert number]</strong> participants.
+              (Optional) The prototype should be functional and demonstrate the intended solution, even if not fully polished.
             </li>
           </ul>
         </section>
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            2. Project Requirements
+            5. Shortlisting and Payment
           </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>
-              All code and assets must be created during the hackathon period.
-            </li>
-            <li>
-              Projects must be original and cannot replicate existing solutions
-              directly.
-            </li>
-            <li>No inappropriate, offensive, or illegal content is allowed.</li>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Shortlisted teams will be announced on 14th Dec.</li>
+            <li>To confirm their spot, shortlisted teams must pay the participation fee: ₹1000 for non-NIT Durgapur teams, ₹500 for NIT Durgapur teams. Payment must be completed by 17th Dec.</li>
           </ul>
         </section>
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            3. Teamwork
+            6. Final Round Participation
           </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>All team members must contribute meaningfully.</li>
-            <li>
-              Respectful communication is mandatory; harassment will not be
-              tolerated.
-            </li>
-          </ul>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            4. Development Guidelines
-          </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>Teams are free to use any technology stack.</li>
-            <li>Use GitHub, GitLab, or similar for version control.</li>
-            <li>Prepare a brief demo of your project.</li>
-          </ul>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            5. Submission
-          </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>
-              All projects must be submitted by{" "}
-              <strong>[insert deadline]</strong>.
-            </li>
-            <li>
-              Submit your code repository link and any additional documents.
-            </li>
-          </ul>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            6. Judging Criteria
-          </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>
-              Innovation, technical implementation, impact, and presentation
-              will be evaluated.
-            </li>
+          <ul className="list-disc list-inside space-y-1">
+            <li>The final shortlist for the offline hackathon will be announced on 20th Dec. Only these teams are eligible to participate in the on-site hackathon at NIT Durgapur.</li>
+            <li>Teams must check their eligibility and arrive prepared for an intense 12-hour hackathon on 18th Jan.</li>
           </ul>
         </section>
 
@@ -100,44 +86,47 @@ const RulesPage = () => {
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
             7. Code of Conduct
           </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>Respect all participants, mentors, and organizers.</li>
-            <li>No harassment, discrimination, or harmful actions allowed.</li>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Participants are expected to maintain professional behavior and respect for all team members, organizers, and judges.</li>
+            <li>Plagiarism, hacking, or any form of cheating will result in immediate disqualification.</li>
           </ul>
         </section>
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            8. Prizes and Awards
+            8. Ownership and Intellectual Property
+          </h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Teams retain ownership of their projects but must credit any open-source tools or third-party libraries used in their work.</li>
+            <li>By participating, teams agree to allow Showdownn to feature their projects for promotional purposes.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
+            9. Judging Criteria
+          </h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Projects will be evaluated on creativity, technical execution, feasibility, and alignment with the problem statement.</li>
+            <li>Judges’ decisions are final and non-negotiable.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
+            10. Awards and Celebration
           </h2>
           <p className="">
-            Prizes will be awarded to winning teams based on the judging
-            criteria.
+            Winning teams will be announced on 19th Jan during the closing ceremony. Prizes will be awarded based on performance and judges' evaluations.
           </p>
         </section>
 
         <section className="mb-6">
           <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            9. Intellectual Property
-          </h2>
-          <ul className="list-disc list-inside  space-y-1">
-            <li>
-              Teams retain ownership of their projects, but organizers may
-              showcase them.
-            </li>
-            <li>
-              Provide attribution for any open-source libraries or assets used.
-            </li>
-          </ul>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold text-secondaryPink mb-2">
-            10. Additional Information
+            11. Communication
           </h2>
           <p className="">
-            Contact [contact email] or visit our FAQ page for any additional
-            questions.
+            All official announcements, including problem statement releases and shortlisting notifications, will be communicated through the registered email addresses. Ensure regular checking to stay updated.
           </p>
         </section>
       </div>

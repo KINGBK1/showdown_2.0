@@ -17,7 +17,7 @@ function Stats() {
               </p>
               <p className=" text-secondaryPink font-bold text-center text-3xl">
                 {index === 1 && "Rs."} {item.number}
-                {index === 2 ? "Hours" : "+"}
+                {index === 2 ? "-Hours" : ""}
               </p>
             </div>
           ))}

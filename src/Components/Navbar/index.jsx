@@ -8,13 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ className }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navbarItems =[
-    "rules",
-    "schedule",
-    "problem-statements",
-    "leaderboard",
-    "contact",
-  ]
+  const navbarItems = ["rules", "schedule", "problem-statements", "contact"];
   // Toggle the mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
