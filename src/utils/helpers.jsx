@@ -70,7 +70,7 @@ export const faq = [
   {
     question: "Is there a registration fee?",
     answer:
-      "Registration is free for all eligible participants. However, selected teams for the offline hackathon will need to pay a participation fee: ₹1000 for non-NIT Durgapur teams and ₹500 for NIT Durgapur teams.",
+      "Registration is free for all eligible participants. However, selected teams for the offline hackathon will need to pay a participation fee: ₹1000 as convenience charges for smooth conduction of the offline hackathon.",
   },
   {
     question: "What is the prize pool for Showdownn?",
@@ -112,7 +112,7 @@ export const faq = [
 
 export const stats = [
   {
-    icon: <IoIosPeople size={28} className=""/>,
+    icon: <IoIosPeople size={35} className=""/>,
     title: "Team Size",
 
     number: "1 - 4",
