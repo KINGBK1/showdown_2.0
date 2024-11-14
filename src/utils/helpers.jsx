@@ -33,6 +33,7 @@ export const timeline = [
   {
     title: "Shortlisted Teams Announced & Payment Portal Opens",
     desc: "Check your inbox for the official shortlist! Confirm your spot and prepare for the next stage by completing the payment process. Teams will need to pay ₹1000 as convenience charges for smooth conduction of offline hackathon.",
+    date: "14th Dec 20:00 IST",
   },
   {
     title: "Payment Portal Closes",
