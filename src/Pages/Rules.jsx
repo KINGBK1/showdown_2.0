@@ -68,7 +68,7 @@ const RulesPage = () => {
           </h2>
           <ul className="list-disc list-inside space-y-1">
             <li>Shortlisted teams will be announced on 14th Dec.</li>
-            <li>To confirm their spot, shortlisted teams must pay the participation fee: ₹1000 for non-NIT Durgapur teams, ₹500 for NIT Durgapur teams. Payment must be completed by 17th Dec.</li>
+            <li>To confirm their spot, shortlisted teams must pay the participation fee: ₹1000 as convenience charges. Payment must be completed by 17th Dec.</li>
           </ul>
         </section>
 

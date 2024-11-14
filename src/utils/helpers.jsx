@@ -32,8 +32,7 @@ export const timeline = [
   },
   {
     title: "Shortlisted Teams Announced & Payment Portal Opens",
-    desc: "Check your inbox for the official shortlist! Confirm your spot and prepare for the next stage by completing the payment process. Teams from outside NIT Durgapur will need to pay ₹1000, while NIT Durgapur teams will pay ₹500 to secure their participation.",
-    date: "14th Dec 10:00 IST",
+    desc: "Check your inbox for the official shortlist! Confirm your spot and prepare for the next stage by completing the payment process. Teams will need to pay ₹1000 as convenience charges for smooth conduction of offline hackathon.",
   },
   {
     title: "Payment Portal Closes",
