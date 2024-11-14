@@ -20,7 +20,7 @@ const RulesPage = () => {
           </h2>
           <ul className="list-disc list-inside space-y-1">
             <li>
-              Registration for Showdownn is free for all eligible participants. However, selected teams for the offline hackathon will be required to pay the participation fee: ₹1000 for non-NIT Durgapur teams, ₹500 for NIT Durgapur teams.
+              Registration for Showdownn is free for all eligible participants. However, selected teams for the offline hackathon will be required to pay the participation fee: ₹1000 as convenience charges for smooth conduction of offline hackathon.
             </li>
             <li>Team sizes must not exceed 4 members.</li>
           </ul>
