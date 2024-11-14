@@ -16,7 +16,7 @@ function LandingPage() {
             <span className=" text-primaryPink ">
               {" "}
               <Typewriter
-                words={["Contribute.", "Innovate.", "Win."]}
+                words={["Code.", "Create.", "Conquer."]}
                 loop={0}
                 cursor
                 cursorStyle="|"

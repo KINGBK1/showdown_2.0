@@ -12,7 +12,7 @@ function FAQs() {
       <p className=" text-white/70 text-xl text-center">
         Answers to the most frequently asked questions!
       </p>
-      <div className=" mx-auto w-4/5 text-white/70 text-xl flex justify-between py-5 flex-col md:flex-row">
+      <div className=" mx-auto w-[90] md:w-4/5 text-white/70 text-xl flex justify-between py-5 flex-col md:flex-row">
         <Accordion className=" w-full md:w-1/2">
           {faq.slice(0, faq.length / 2).map((item, index) => (
             <AccordionItem key={index} title={item.question}>

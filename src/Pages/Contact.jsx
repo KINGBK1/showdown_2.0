@@ -1,9 +1,7 @@
 // https://www.google.com/maps/@23.5472419,87.2925633,17.28z?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import PageContainer from "../Components/PageContainer";
-import { contact, map } from "../Assets";
-import { Input } from "@nextui-org/react";
 import { MdMail, MdMessage, MdPerson, MdPhone } from "react-icons/md";
 import UiInput from "../Components/Input";
 import UITextArea from "../Components/Input/TextArea";
@@ -122,7 +120,7 @@ function Contact() {
             />
             <button
               type="submit"
-              className="bg-primaryPink text-white py-2 px-4 rounded-md"
+              className="bg-primaryPink text-white py-2 px-4 rounded-md hover:bg-pink-500 transition-colors duration-300"
               onClick={handleSubmit}
             >
               Submit
@@ -136,14 +134,22 @@ function Contact() {
             </p>
             <div className="flex items-center mt-4">
               <MdPhone className="mr-2" />
-              <a href="tel:+91 98300 00000" className="text-lg">
-                +91 98300 00000
+              <a href="tel:+91 7890912728" className="text-lg">
+               +91 7890912728
               </a>
+              <p className="ml-2">(Ayush Bhartia) </p>
+            </div>
+            <div className="flex items-center mt-4">
+              <MdPhone className="mr-2" />
+              <a href="tel:+91 9679670516" className="text-lg">
+               +91 9679670516
+              </a>
+              <p className="ml-2">(Suman Karmakar) </p>
             </div>
             <div className="flex items-center mt-2">
               <MdMail className="mr-2" />
-              <a href="mailto:suman@nitdgplug.com" className="text-lg">
-                suman@nitdgplug.com
+              <a href="mailto:nitdlug@gmail.com" className="text-lg">
+                nitdlug@gmail.com
               </a>
             </div>
           </div>

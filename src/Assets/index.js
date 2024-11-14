@@ -16,6 +16,7 @@ import contact from "./Images/contact.webp";
 import dgplogo from "./Images/dgplogo.png";
 import glug from "./Images/glug.png";
 import limit from "./Images/limit.png";
+import mukti from "./Images/Mukti-24-logo.png"
 export {
   BG,
   Logo,
@@ -34,5 +35,6 @@ export {
   contact,
   dgplogo,
   glug,
+  mukti,
   limit,
 };

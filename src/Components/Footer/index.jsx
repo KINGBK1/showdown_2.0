@@ -67,7 +67,7 @@ function Footer() {
           </div>
           <div className="flex flex-col min-w-52 md:items-center  my-4 md:my-0 mx-5 gap-4">
             <p className=" font-bold text-2xl">Follow Us</p>
-            <a target="_blank" href="" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
+            <a target="_blank" href="https://discord.gg/5nSsd6XADA" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">
               <FaDiscord color="blue" size={20} /> Discord
             </a>
             <a target="_blank" href="https://www.linkedin.com/company/lugnitdgp/posts/?feedView=all" className=" cursor-pointer text-lg md:text-xl min-w-28 flex items-center gap-2">

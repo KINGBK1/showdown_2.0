@@ -8,7 +8,7 @@ export const SecondaryButton = ({ children }) => {
         <Button
           onClick={() => {
             window.open(
-              "https://unstop.com/p/showdownn-gnulinux-users-group-nit-durgapur-1222827",
+              "https://discord.gg/5nSsd6XADA",
               "_blank"
             );
           }}

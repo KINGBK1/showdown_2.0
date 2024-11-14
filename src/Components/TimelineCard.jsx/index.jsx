@@ -24,7 +24,7 @@ export const TimeLineCard = ({ obj, idx }) => {
       </div>
       <div className="h-8 md:h-16 w-[4px] md:w-[8px] bg-zinc-300"></div>
       <div className="backdrop-blur-lg rounded-lg bg-pink-600 w-32 md:w-48 h-16 md:h-20 flex flex-shrink-0 justify-center items-center">
-        <div className="font-black text-lg md:text-2xl">{obj.date}</div>
+        <div className="font-black text-md md:text-lg">{obj.date}</div>
       </div>
     </div>
   );

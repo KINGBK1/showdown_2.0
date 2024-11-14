@@ -6,7 +6,7 @@ function HomeLoader() {
   return (
     <div className="flex flex-col justify-center items-center h-screen w-screen bg-black"> 
     <img src={LoaderVideo} alt="loader" className=" w-96 h-96 object-cover" />
-    Loading...</div> 
+    </div> 
   )
 }
 

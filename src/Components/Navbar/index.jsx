@@ -3,7 +3,7 @@ import { Button } from "@nextui-org/react";
 import { MdPerson } from "react-icons/md";
 import { PrimaryButton } from "../Buttons/PrimaryButton";
 import { SecondaryButton } from "../Buttons/SecondaryButton";
-import { dgplogo, glug, Logo } from "../../Assets";
+import { dgplogo, glug, Logo, mukti } from "../../Assets";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ className }) {
@@ -16,7 +16,7 @@ export default function Navbar({ className }) {
   const navigate = useNavigate();
 
   return (
-    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0">
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0 timer-text">
       <div className=" flex items-center px-4">
         <div className=" flex items-center border-r-1 border-white px-4 gap-4">
           <img
@@ -32,6 +32,12 @@ export default function Navbar({ className }) {
             onClick={() => window.open("https://nitdgplug.org/", "_blank")}
           />
         </div>
+        <img
+            src={mukti}
+            alt="MUKTI"
+            className="w-16 h-16 cursor-pointer invert "
+            // onClick={() => window.open("https://nitdgplug.org/", "_blank")}
+          />
         <img
           src={Logo}
           alt="Logo"
