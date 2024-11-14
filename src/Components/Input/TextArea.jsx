@@ -1,7 +1,7 @@
 import { Textarea } from "@nextui-org/react";
 import React from "react";
 
-function UITextArea({ placeholder, startContent, onChange, isRequired, type }) {
+function UITextArea({ placeholder, startContent, onChange, isRequired, type, value }) {
   return (
     <div>
       {" "}
@@ -12,6 +12,7 @@ function UITextArea({ placeholder, startContent, onChange, isRequired, type }) {
         size="md"
         type={type}
         isRequired={isRequired}
+        value={value}
         onChange={onChange}minRows={20}        startContent={startContent}
         classNames={{
           label: "text-white/90 text-xl pt-3",

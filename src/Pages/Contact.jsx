@@ -1,17 +1,56 @@
 // https://www.google.com/maps/@23.5472419,87.2925633,17.28z?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PageContainer from "../Components/PageContainer";
 import { contact, map } from "../Assets";
 import { Input } from "@nextui-org/react";
 import { MdMail, MdMessage, MdPerson, MdPhone } from "react-icons/md";
 import UiInput from "../Components/Input";
 import UITextArea from "../Components/Input/TextArea";
+import { db, addDoc, collection } from "../firebase";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [query, setQuery] = useState("");
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleQueryChange = (e) => {
+    setQuery(e.target.value);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = {
+      name: name,
+      email: email,
+      query: query,
+    };
+    try {
+      await addDoc(collection(db, "contactMessages"), formData);
+      toast.success("submitted successfully!");
+      console.log("Form submitted successfully!");
+      setName("");
+      setEmail("");
+      setQuery("");
+    } catch (error) {
+      console.error("Error adding document: ", error);
+      toast.error("Something went wrong");
+    }
+  };
+
   return (
     <PageContainer>
       <div className=" flex flex-col justify-center items-center pt-10 mb-10 mt-7">
+        <ToastContainer />
         <p className="text-3xl text-primaryPink  font-bold">
           FEEL FREE TO CONTACT US
         </p>
@@ -50,7 +89,9 @@ function Contact() {
               label={"Name"}
               isRequired={true}
               type={"text"}
+              value={name} 
               startContent={<MdPerson />}
+              onChange={handleNameChange}
             />
             <p className=" text-base">
               Enter Your Email <span className="text-red-500">*</span>
@@ -61,7 +102,9 @@ function Contact() {
               label={"Email"}
               isRequired={true}
               type={"email"}
+              value={email} 
               startContent={<MdMail />}
+              onChange={handleEmailChange}
             />
             <p className=" text-base">
               Suggestions/ Feedback/ Queries{" "}
@@ -73,11 +116,14 @@ function Contact() {
               label={"Message"}
               isRequired={true}
               type={"text"}
+              value={query} 
               startContent={<MdMessage />}
+              onChange={handleQueryChange}
             />
             <button
               type="submit"
               className="bg-primaryPink text-white py-2 px-4 rounded-md"
+              onClick={handleSubmit}
             >
               Submit
             </button>

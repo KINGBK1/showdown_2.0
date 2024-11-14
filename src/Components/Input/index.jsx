@@ -1,7 +1,7 @@
 import { Input } from "@nextui-org/react";
 import React from "react";
 
-function UiInput({placeholder, startContent,onChange, isRequired, type,}) {
+function UiInput({placeholder, startContent,onChange, isRequired, type, value}) {
   return (
     <Input
       isClearable={true}
@@ -9,6 +9,7 @@ function UiInput({placeholder, startContent,onChange, isRequired, type,}) {
       radius="sm"
       size="md"
       type={type}
+      value={value}
       isRequired={isRequired}
       onChange={onChange}
       classNames={{
