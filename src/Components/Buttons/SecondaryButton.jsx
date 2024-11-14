@@ -4,7 +4,7 @@ import React from "react";
 export const SecondaryButton = ({ children }) => {
   return (
     <div className=" relative">
-      <div className="bg-black w-36 rounded-tr-sm   rounded-bl-sm before:ease relative overflow-hidden border border-pink-500 shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-gray-900 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180">
+      <div className="bg-black rounded-tr-sm   rounded-bl-sm before:ease relative overflow-hidden border border-pink-500 shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-gray-900 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180 px-3 py-1 rounded-xl">
         <Button
           onClick={() => {
             window.open(

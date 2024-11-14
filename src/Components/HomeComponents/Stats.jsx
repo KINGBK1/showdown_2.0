@@ -12,7 +12,8 @@ function Stats() {
                 index === 2 && " col-span-2"
               } `}
             >
-              <p className=" text-white/80 text-center text-2xl my-2">
+              <p className=" text-white/80 text-center text-2xl my-2 flex items-center justify-center gap-2">
+              {item.icon}
                 {item.title}
               </p>
               <p className=" text-secondaryPink font-bold text-center text-3xl">
