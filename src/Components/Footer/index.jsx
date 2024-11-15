@@ -59,7 +59,7 @@ function Footer() {
         </div>
         <div className=" flex flex-col md:flex-row md:justify-end  md:gap-3">
           <div className=" mx-4 text-lg md:text-xl flex flex-col min-w-52 md:items-center gap-2 my-4 md:my-0  md:gap-4">
-            <p className=" font-bold text-2xl">Hackathon 2024</p>
+            <p className=" font-bold text-2xl">SHOWDOWNN</p>
             <a href="/problem-statements" className=" cursor-pointer text-lg md:text-xl">Problem Statements</a>
             <a href="/rules" className=" cursor-pointer text-lg md:text-xl">Rules</a>
             <a href="/schedule" className=" cursor-pointer text-lg md:text-xl">Schedule</a>
