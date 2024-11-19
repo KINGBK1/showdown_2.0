@@ -18,7 +18,7 @@ export const timeline = [
   {
     title: "Problem Statement Drop",
     desc: "The problem statements for Showdownn will be released, officially kicking off this year’s hackathon. Participants can explore two domains—Healthcare and Finance—each featuring three unique challenges crafted to test creativity, technical skills, and problem-solving abilities. Choose one problem statement from either domain to begin your project, and prepare to submit your prototype and presentation for evaluation.",
-    date: "15th Nov 20:00 IST",
+    date: "22nd Nov 20:00 IST",
   },
   {
     title: "Registration Closes",

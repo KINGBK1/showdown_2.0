@@ -8,7 +8,7 @@ export const PrimaryButton = ({ children }) => {
         <Button
           onClick={() => {
             window.open(
-              "https://unstop.com/p/showdownn-gnulinux-users-group-nit-durgapur-1222827",
+              "https://unstop.com/p/showdownn-gnulinux-users-group-nit-durgapur-1225647",
               "_blank"
             );
           }}
