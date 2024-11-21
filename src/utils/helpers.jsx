@@ -6,9 +6,6 @@ import {
   innovate,
   build,
 } from "../Assets";
-import { TiStopwatch } from "react-icons/ti";
-import { FaMoneyBillWave } from "react-icons/fa";
-import { IoIosPeople } from "react-icons/io";
 export const timeline = [
   {
     title: "Registration Begins",
@@ -110,24 +107,7 @@ export const faq = [
   },
 ];
 
-export const stats = [
-  {
-    icon: <IoIosPeople size={35} className=""/>,
-    title: "Team Size",
-
-    number: "1 - 4",
-  },
-  {
-    icon: <FaMoneyBillWave size={26} className=""/>,
-    title: "Prize Pool",
-    number: "20,000+",
-  },
-  {
-    icon: <TiStopwatch size={26} className=""/>,
-    title: "Duration",
-    number: 12,
-  },
-];
+ 
 
 export const themes = [
   {
