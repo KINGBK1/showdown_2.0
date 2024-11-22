@@ -51,7 +51,8 @@ const StatementCard = ({ statement }) => {
             </h3>
             {/* <p className="text-gray-300">{statement.description.slice(0,textLimit) + "     ....."}</p> */}
             <MarkdownEditor.Markdown
-              source={statement.description.slice(0, textLimit) + " ...."}
+              // source={statement.description.slice(0, textLimit) + " ...."}
+              source={statement.intro?statement.intro:statement.description.slice(0, textLimit) + " ...." }
             />
           </div>
         </div>

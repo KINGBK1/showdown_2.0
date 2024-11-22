@@ -37,11 +37,11 @@ export const routes = [
       },
       {
         path: "/problem-statements",
-        element: <ComingSoon />,
+        element: <ProblemStatements />,
       },
       {
         path: "/problem-statements/:setActiveTheme",
-        element: <ComingSoon />,
+        element: <ProblemStatements />,
       },
       {
         path: "/contact",
