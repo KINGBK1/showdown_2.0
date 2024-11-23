@@ -10,7 +10,9 @@ function LandingPage() {
   return (
     <div className=" flex flex-col md:flex-row justify-center r w-full min-h-[90vh] relative">
       <section className=" w-full  ">
-        <div className=" flex flex-col gap-4 w-4/5 mx-auto   pt-16  h-full ">
+        <div className=" flex flex-col gap-4 mx-auto h-full ">
+        <div className=" flex flex-col w-4/5 mx-auto gap-4 pt-16">
+          
           <p className=" text-5xl md:text-8xl font-bold ">
             Team Up. <br />{" "}
             <span className=" text-primaryPink ">
@@ -43,7 +45,8 @@ function LandingPage() {
               <MdCalendarMonth className=" text-2xl" /> 17th - 19th January 2025
             </p>
           </div>
-          <div className="flex gap-4  ">
+        </div>
+          <div className="flex gap-4 md:w-4/5 mx-auto  ">
             <PrimaryButton>Register</PrimaryButton>
             <SecondaryButton>Join our Discord</SecondaryButton>
           </div>

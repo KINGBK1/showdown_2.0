@@ -16,7 +16,7 @@ export default function Navbar({ className }) {
   const navigate = useNavigate();
 
   return (
-    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-4 z-50 sticky top-0 timer-text">
+    <nav className=" flex justify-between items-center h-20 backdrop-blur-md py-5 px-2 z-50 sticky top-0 timer-text">
       <div className=" flex items-center px-4">
         <div className=" flex items-center border-r-1 border-white px-4 gap-4">
           <img
