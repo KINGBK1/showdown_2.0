@@ -11,7 +11,7 @@ function LandingPage() {
     <div className=" flex flex-col md:flex-row justify-center r w-full min-h-[90vh] relative">
       <section className=" w-full  ">
         <div className=" flex flex-col gap-4 mx-auto h-full ">
-        <div className=" flex flex-col w-4/5 mx-auto gap-4 pt-16">
+        <div className=" flex flex-col w-4/5 mx-auto gap-4 md:pt-16">
           
           <p className=" text-5xl md:text-8xl font-bold ">
             Team Up. <br />{" "}

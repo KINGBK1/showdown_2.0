@@ -49,7 +49,7 @@ function Contact() {
     <PageContainer>
       <div className=" flex flex-col justify-center items-center pt-10 mb-10 mt-7">
         <ToastContainer />
-        <p className="text-3xl text-primaryPink  font-bold">
+        <p className="text-2xl md:text-3xl text-primaryPink  font-bold">
           FEEL FREE TO CONTACT US
         </p>
 

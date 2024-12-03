@@ -18,7 +18,7 @@ const Schedule = () => {
   return (
     <PageContainer>
       <div>
-        <div className="text-center mb-8">
+        <div className="text-center md:mb-8">
           <p className="text-3xl md:text-5xl font-bold">
             Keep the <span className="text-primaryPink">Dates</span>
           </p>
@@ -26,14 +26,14 @@ const Schedule = () => {
             Get a quick look at the timeline of Showdownn
           </p>
         </div>
-        <div className="flex h-auto py-10 md:py-0 mb-10 items-center">
+        <div className="flex h-auto md:py-0 mb-10 items-center">
           <MdChevronLeft
             size={48}
             onClick={slideLeft}
             className="cursor-pointer mr-4 md:mr-10"
           />
           <div
-            className="flex overflow-x-scroll scrollbar-hide scroll-smooth mt-10 py-5 w-full"
+            className="flex overflow-x-scroll scrollbar-hide scroll-smooth mt-6 py-5 w-full"
             id="slider"
           >
             {timeline.map((obj, index) => (
