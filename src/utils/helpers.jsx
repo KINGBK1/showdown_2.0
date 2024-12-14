@@ -20,27 +20,27 @@ export const timeline = [
   {
     title: "Registration Closes",
     desc: "Final call to register! This is your last chance to secure your spot and join us for an unforgettable experience. Make sure to complete your registration by this date to be part of the event and take advantage of everything it has to offer. Don’t miss out on this opportunity!",
-    date: "10th Dec 23:59 IST",
+    date: "31st Dec 22:00 IST",
   },
   {
     title: "Idea Submission Deadline",
     desc: "Finalize and submit your initial PPT and prototype video if possible by this date, showcasing your approach and design direction. Make sure everything’s ready to demonstrate your solution’s potential!",
-    date: "12th Dec 22:00 IST",
+    date: "31st Dec 22:00 IST",
   },
   {
     title: "Shortlisted Teams Announced & Payment Portal Opens",
     desc: "Check your inbox for the official shortlist! Confirm your spot and prepare for the next stage by completing the payment process. Teams will need to pay ₹1000 as convenience charges for smooth conduction of offline hackathon.",
-    date: "14th Dec 20:00 IST",
+    date: "1st Jan 18:00 IST",
   },
   {
     title: "Payment Portal Closes",
     desc: "This is the final day to complete payment for shortlisted teams. Ensure all formalities are completed to confirm your participation in the next round.",
-    date: "17th Dec 23:59 IST",
+    date: "04th Jan 14:00 IST",
   },
   {
-    title: "Final Shortlist for Offline Hackathon Announced",
+    title: "Final Shortlist Teams Released",
     desc: "The final list of teams advancing to the offline hackathon at NIT Durgapur will be announced. Stay tuned to see if your team made it to the in-person round!",
-    date: "20th Dec 20:00 IST",
+    date: "06th Jan 14:00 IST",
   },
   {
     title: "Hackathon Day - 12 Hours of Pure Innovation",
