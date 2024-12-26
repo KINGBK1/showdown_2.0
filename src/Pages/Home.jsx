@@ -23,7 +23,7 @@ function Home() {
           <Themes />
         </div>
         {/* <WhyThisHackathon /> */}
-        {/* <Sponsers /> */}
+        <Sponsers />
 
         <FAQs />
 

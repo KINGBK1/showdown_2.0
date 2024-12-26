@@ -1,4 +1,5 @@
 import React from "react";
+import { sponsors } from "../../utils/helpers";
 
 function Sponsers() {
   return (
@@ -10,8 +11,10 @@ function Sponsers() {
         </p>
       </div>
       <div className=" flex flex-wrap gap-10 justify-center my-6">
-        {Array.from({ length: 10 }).map((_, index) => (
-                  <div className=" w-64 h-36 bg-white rounded-md"></div>
+        {sponsors.map((ele, index) => (
+                  <div className=" w-64 p-2 bg-slate-50 rounded-md">
+                    <img src={ele} />
+                  </div>
 
         ))}{" "}
       </div>

@@ -168,3 +168,7 @@ export const whyUs = [
       "https://res.cloudinary.com/dogqbjx8a/image/upload/build_zr7yix.webp",
   },
 ];
+
+export const sponsors=[
+  "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Medium.png",
+]
