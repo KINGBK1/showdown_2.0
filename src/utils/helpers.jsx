@@ -170,5 +170,12 @@ export const whyUs = [
 ];
 
 export const sponsors=[
-  "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Medium.png",
+  {
+    text:"POWERED BY",
+    link:"https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Medium.png",
+  },
+  {
+    text:"",
+    link:"https://img.icons8.com/?size=120&id=AbQBhN9v62Ob&format=png&color=000000",
+  },
 ]
