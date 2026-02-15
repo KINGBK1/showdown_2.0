@@ -17,7 +17,7 @@ const Routes = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 3001);
   }, []);
 
   return loading ? <HomeLoader /> : <Outlet />;
